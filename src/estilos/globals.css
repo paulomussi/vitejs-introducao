@@ -66,6 +66,8 @@ small {
 
 a {
   text-decoration: none;
+  font-size: 1.6rem;
+  color: darkcyan;
 }
 
 @media screen and (max-width: 960px) {
