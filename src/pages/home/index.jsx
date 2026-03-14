@@ -1,16 +1,17 @@
-
-import './index.css'
+import { link } from "react-router"
+import styles from './index.module.css'
 
 function Home() {
   return (
-    <>
-    <h1>Aula introdução Vite JS</h1>
-    <h2>Preparo do projeto</h2>
-    <h3>Estilização</h3>
-    <p>Entendendo uso de css dentro do projeto.</p>
-    <label> Exemplo label </label>
-    <small> Exemplo label </small>
-    </>
+    <div className={styles.container}>
+      <div className={styles.containerLista}>
+        <h1>Exemplos</h1>
+        <Link to="/exemplo/1">Exemplo 1</Link>
+      </div>  
+      <div className={styles.containerLista}>
+        <h1>Atividades</h1>
+      </div>
+    </div>
   )
 }
 
