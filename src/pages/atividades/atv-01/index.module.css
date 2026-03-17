@@ -1,0 +1,28 @@
+.titulo {
+    color: black;
+    font-size: 50px;
+    padding: 50px;
+}
+.div {
+    display: flex;
+    padding: 10rem;
+}
+
+.vermelho {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.preto {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+.branco {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
