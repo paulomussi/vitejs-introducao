@@ -1,33 +1,39 @@
 .container {
-    padding: 20rem; 
-    font-family: 'sans-serif';
-}
-
-.lista {
     display: flex;
-    flex-direction: column; 
-    width: 45rem; 
-
+    flex-direction: column;
+    height: 96vh;
+    justify-content: center;
 }
 
-.linha {
+.containerOperacoes {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 1rem 0;
-    border-bottom: 0.3rem solid #000;
-    padding-bottom: 0.2rem;
 }
 
-.conteudo {
-    margin-right: 1rem; 
-    font-size: 1.6rem;    
-}
-.botao {
+.containerLabel {
     display: flex;
-    margin-left: auto;
-    margin-right: 3px;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.texto {
+    font-size: 3.5rem;
+    margin: 2rem 1rem;
+}
+
+.botao {
+    font-size: 3rem;
+    border: 0.3rem solid #000;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    width: 7rem; 
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #000; 
+    color: #fafafa;
 }
